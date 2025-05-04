@@ -1,4 +1,4 @@
-(ns url-shortener.interactors.usecases
+(ns url-shortener.interactors.url_usecases
   (:require [url-shortener.domain.hash-id :as hash-domain]))
 
 (defn hash-url-and-save

@@ -1,5 +1,5 @@
 (ns url-shortener.config.dependencies
-  (:require [url-shortener.interactors.usecases :as use-cases]
+  (:require [url-shortener.interactors.url_usecases :as use-cases]
             [url-shortener.adapters.memory-adapter :as adapter]))
 
 (defn hash-url-and-save
